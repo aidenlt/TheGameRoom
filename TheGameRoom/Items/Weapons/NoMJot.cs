@@ -14,13 +14,13 @@ namespace TheGameRoom.Items.Weapons
 		}
 
 		public override void SetDefaults() {
-			item.damage = 25;
+			item.damage = 65;
 			item.ranged = true;
 			item.width = 40;
 			item.height = 20;
-			item.useAnimation = 12;
-			item.useTime = 4;
-			item.reuseDelay = 14;
+			item.useAnimation = 30;
+			item.useTime = 30;
+			item.reuseDelay = 30;
 			item.useStyle = ItemUseStyleID.HoldingOut;
 			item.noMelee = true; //so the item's animation doesn't do damage
 			item.knockBack = 4;
