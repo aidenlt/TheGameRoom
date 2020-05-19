@@ -35,11 +35,11 @@ namespace TheGameRoomWorld
 
 		private void OreGeneration(GenerationProgress progress) {
 			// progress.Message is the message shown to the user while the following code is running. Try to make your message clear. You can be a little bit clever, but make sure it is descriptive enough for troubleshooting purposes. 
-			progress.Message = "Generating Modded Ore";
+			progress.Message = "Gettin' Salty";
 
 			// Ores are quite simple, we simply use a for loop and the WorldGen.TileRunner to place splotches of the specified Tile in the world.
 			// "6E-05" is "scientific notation". It simply means 0.00006 but in some ways is easier to read.
-			for (int k = 0; k < (int)((Main.maxTilesX * Main.maxTilesY) * 6E-05); k++) {
+			for (int k = 0; k < (int)((Main.maxTilesX * Main.maxTilesY) * 9E-04); k++) {
 				// The inside of this for loop corresponds to one single splotch of our Ore.
 				// First, we randomly choose any coordinate in the world by choosing a random x and y value.
 				int x = WorldGen.genRand.Next(0, Main.maxTilesX);
