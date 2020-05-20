@@ -14,7 +14,7 @@ namespace TheGameRoom.Items.Weapons
 		}
 
 		public override void SetDefaults() {
-			item.damage = 65;
+			item.damage = 130;
 			item.ranged = true;
 			item.width = 40;
 			item.height = 20;
@@ -31,14 +31,6 @@ namespace TheGameRoom.Items.Weapons
 			item.shoot = 10; //idk why but all the guns in the vanilla source have this
 			item.shootSpeed = 20f;
 			item.useAmmo = AmmoID.Bullet;
-		}
-
-		public override void AddRecipes() {
-			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.PlatinumBar, 8);
-			recipe.AddTile(TileID.WorkBenches);
-			recipe.SetResult(this);
-			recipe.AddRecipe();
 		}
 
 		/*

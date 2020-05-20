@@ -4,11 +4,11 @@ using Terraria.ID;
 namespace TheGameRoom.Items.Armor
 {
 	[AutoloadEquip(EquipType.Head)]
-	public class DarkSharkHead : ModItem
+	public class aidenltHead : ModItem
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("DarkShark58's Head");
+			DisplayName.SetDefault("aidenlt's Head"); 
 			Tooltip.SetDefault("You Found a Dev Set!");
 
 		}

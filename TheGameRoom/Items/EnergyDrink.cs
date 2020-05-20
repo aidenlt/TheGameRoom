@@ -28,5 +28,15 @@ namespace TheGameRoom.Items
             item.buffType = BuffID.NightOwl; //Night Owl
             item.buffTime = 5400; //The amount of time the buff declared in item.buffType will last in ticks. 5400 / 60 is 90, so this buff will last 90 seconds.
         }
+        public override void AddRecipes() 
+		{
+			ModRecipe recipe = new ModRecipe(mod);
+			recipe.AddIngredient(ItemID.TinBar, 1);
+            recipe.AddIngredient(ItemID.RottenChunk, 5);
+            recipe.AddIngredient(ItemID.BottledWater, 1);
+			recipe.AddTile(TileID.WorkBenches);
+			recipe.SetResult(this);
+			recipe.AddRecipe();
+		}
     }
 }

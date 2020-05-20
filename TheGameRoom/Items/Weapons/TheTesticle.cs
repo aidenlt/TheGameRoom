@@ -26,7 +26,7 @@ namespace TheGameRoom.Items.Weapons
 			item.useTime = 20;
 			item.shootSpeed = 16f;
 			item.knockBack = 5f;
-			item.damage = 45;
+			item.damage = 30;
 			item.rare = 5;
 
 			item.melee = true;
