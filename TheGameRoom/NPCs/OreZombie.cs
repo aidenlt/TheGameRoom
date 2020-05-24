@@ -29,15 +29,18 @@ namespace TheGameRoom.NPCs
 			animationType = NPCID.Zombie;
 			banner = Item.NPCtoBanner(NPCID.Zombie);
 			bannerItem = Item.BannerToItem(banner);
+
+			if(Main.hardMode)
+			{
+				npc.damage = 34;
+				npc.lifeMax = 400;
+			}
 		}
 
-		public override float SpawnChance(NPCSpawnInfo spawnInfo)
-		{
-			return SpawnCondition.OverworldNightMonster.Chance * 50f;
-		}
 
 		public override void NPCLoot()
 		{
+
 			Item.NewItem(npc.getRect(), ItemID.IronOre, Main.rand.Next(1, 11));
 			Item.NewItem(npc.getRect(), ItemID.CopperOre, Main.rand.Next(1, 12));
 			Item.NewItem(npc.getRect(), ItemID.GoldOre, Main.rand.Next(1, 9));

@@ -21,6 +21,7 @@ namespace TheGameRoom.Items.Armor
 			item.height = 40;
 			item.value = 10000;
 			item.rare = -12;
+			item.vanity = true;
 		}
 	}
 }
