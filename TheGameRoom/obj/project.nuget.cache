@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OCzU2b1yHZ9GjbNGp25e3xV2073AEFCgXPjfqpUVyVyK3vbnKjt+bjS16waA9QBAaAFZJlZFSH4GWFCvX+1LAw==",
+  "dgSpecHash": "OgqgogTRwijdQ8IZxw1tsaQeo5GSciiCA5OR9YcHtXa4o9ok8ZMoBzEtYUe3UUc40s86hAUr2f3bQEaxa9K68A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aiden\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\TheGameRoom\\TheGameRoom.csproj",
+  "projectFilePath": "C:\\Users\\aiden\\Desktop\\TheGameRoom\\TheGameRoom\\TheGameRoom.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aiden\\.nuget\\packages\\tmodloader.codeassist\\0.1.1\\tmodloader.codeassist.0.1.1.nupkg.sha512"
   ],

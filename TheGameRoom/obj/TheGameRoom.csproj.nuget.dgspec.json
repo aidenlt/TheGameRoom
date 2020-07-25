@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aiden\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\TheGameRoom\\TheGameRoom.csproj": {}
+    "C:\\Users\\aiden\\Desktop\\TheGameRoom\\TheGameRoom\\TheGameRoom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aiden\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\TheGameRoom\\TheGameRoom.csproj": {
+    "C:\\Users\\aiden\\Desktop\\TheGameRoom\\TheGameRoom\\TheGameRoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aiden\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\TheGameRoom\\TheGameRoom.csproj",
+        "projectUniqueName": "C:\\Users\\aiden\\Desktop\\TheGameRoom\\TheGameRoom\\TheGameRoom.csproj",
         "projectName": "TheGameRoom",
-        "projectPath": "C:\\Users\\aiden\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\TheGameRoom\\TheGameRoom.csproj",
+        "projectPath": "C:\\Users\\aiden\\Desktop\\TheGameRoom\\TheGameRoom\\TheGameRoom.csproj",
         "packagesPath": "C:\\Users\\aiden\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aiden\\Documents\\My Games\\Terraria\\ModLoader\\Mod Sources\\TheGameRoom\\obj\\",
+        "outputPath": "C:\\Users\\aiden\\Desktop\\TheGameRoom\\TheGameRoom\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aiden\\AppData\\Roaming\\NuGet\\NuGet.Config",
